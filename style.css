@@ -733,6 +733,13 @@ a{
         margin-right: auto;
     }
 
+    .footer *:not(img, input, button), 
+    .footer-btm * {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .inl li{
         display: inline-block;
         margin:0 10px;

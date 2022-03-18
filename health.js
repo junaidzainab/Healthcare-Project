@@ -76,14 +76,14 @@ fetch(url1)
             let tit = document.querySelector("#name");
             if(me.type ==="report"){
                 tit.innerHTML += `
-                <div class="dsp-flex"> 
+                <div class="dsp-flex" id="report"> 
                     <img src="imageD/not.svg">
                     <h5>${me.title}</h5>
                 </div>
             `;
             } else{
                 tit.innerHTML += `
-                <div> 
+                <div id="report"> 
                     <img src="imageD/icon1.svg">
                     <h5>${me.title}</h5>
                  </div>`;

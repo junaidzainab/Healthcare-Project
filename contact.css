@@ -376,6 +376,27 @@ input{
     .liht3{
         line-height: 40px;
     }
+
+    .footer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer *:not(img, input, button), 
+    .footer-btm * {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .inl li{
+        display: inline-block;
+        margin:0 10px;
+        padding-bottom: 10px;
+        text-align: center;
+
+
 }
 
 @media screen and (max-width: 690px) {
