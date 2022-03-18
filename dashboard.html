@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealCare-Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bdgblu ht gridlit poppins wt1 clw posfix">
+        <div class="flex1 pd mrgtb"><img src='imageD/Ellipse 157.svg'> <span class="mrglef">Health Lite</span></div>
+        <div class="">
+            <div id="dash"><a href="#" target="_blank" class="flex1 pd4"><img src="imageD/bx_bxs-dashboard.svg"><span
+                        class="mrglef">Dashboard</span></a></div>
+            <div><a href="#" target="_blank" class="flex1 pd4"><img src="imageD/3. ideas.png"><span
+                        class="mrglef">Waiting
+                        Room</span></a></div>
+            <div><a href="Schedule.html" target="_blank" class="flex1 pd4"><img src="imageD/schedule.svg"><span
+                        class="mrglef">Schedule</span></a></div>
+            <div><a href="#" target="_blank" class="flex1 pd4"><img src="imageD/patient.svg"><span class="mrglef">My
+                        Patients</span></a></div>
+            <div><a href="#" target="_blank" class="flex1 pd4"><img src="imageD/notes.svg"><span
+                        class="mrglef">Notes</span></a></div>
+            <div><a href="#" target="_blank" class="flex1 pd4"><img src="imageD/chats.svg"><span
+                        class="mrglef">Chats</span></a></div>
+        </div>
+        <div>
+            <div><a href="#" target="_self" class="flex1 pd1 mrgtb"><img src="imageD/profile.svg"><span>My
+                        Profile</span></a></div>
+            <div><a href="#" target="_self" class="flex1 pd2 mrgtb"><img src="imageD/sett.svg"><span>Settings</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="posstic mrglefft ht2 bgwht">
+        <div class="mrg-lef pdtb">
+            <img src="imageD/Shape.svg">
+            <img src="imageD/Ellipse 2.svg">
+        </div>
+    </div>
+    <div class="container grey mrgleff">
+        <div>
+            <div class="bdgblue mrgbdy">
+                <div class="grid2 algitm mrg">
+                    <div class="clw">
+                        <div class="pdbtm">
+                            <h2 class="font6 pdbtm ">Welcome, Dr. Fayemi David</h2>
+                            <p class="font2 popp liht2 pdbtm">You have <span id="no">16</span> new appointments and
+                                there
+                                are currently <span id="wait">23,445</span> patients in the waiting room.
+                                Have a nice day at work!
+                            </p>
+                        </div>
+                        <div class='flex1'>
+                            <button class="btn fle"><img src='imageD/eye.svg'>View your appointments</button>
+                            <button class="btn2">Go to waiting room &rightarrow;</button>
+                        </div>
+                    </div>
+                    <div class="wt"><img src="imageD/character 2.svg" class="wt"></div>
+                </div>
+            </div>
+            <div class="grid3 mrgbdy">
+                <div class="card1 pd5">
+                    <div class="flex1 pdbtm1">
+                        <div><img src="imageD/cont.svg"></div>
+                        <div class="flex1">
+                            <h6>All Time</h6>
+                            <div><img src="imageD/icondown.svg" class=""></div>
+                        </div>
+                    </div>
+                    <div class="pdtb1 pdbtm1 font-4">
+                        <h5 id="tol">0</h5>
+                        <p class="mjn">Total Patients</p>
+                    </div>
+                    <div class="flex1 pdtb1 pdbtm">
+                        <img src="imageD/arrowdown.svg">
+                        <h6>5% less than last month</h6>
+                    </div>
+                </div>
+                <div class="card1 pd5">
+                    <div class="flex1 pdbtm1">
+                        <div><img src="imageD/caltim.svg"></div>
+                        <div class="flex1">
+                            <h6>Today</h6><img src="imageD/icondown.svg" class="">
+                        </div>
+                    </div>
+                    <div class="pdtb1 pdbtm1 font-4">
+                        <h5 id='no1'>0</h5>
+                        <p class="mjn">Appointments</p>
+                    </div>
+                    <div class="flex1 pdtb1 pdbtm">
+                        <img src="imageD/arrowup.svg">
+                        <h6>15% more than yesterday</h6>
+                    </div>
+                </div>
+                <div class="card1 pd5">
+                    <div class="flex1 pdbtm1">
+                        <div><img src="imageD/time.svg"></div>
+                        <div class="flex1">
+                            <h6>Today</h6><img src="imageD/icondown.svg" class="">
+                        </div>
+                    </div>
+                    <div class="pdtb1 pdbtm1 font-4">
+                        <h5 id="wait1">0</h5>
+                        <p class="mjn">Waiting Room</p>
+                    </div>
+                    <div class="flex1 pdtb1 pdbtm">
+                        <img src="imageD/arrowup.svg">
+                        <h6>35% less than yesterday</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="card mrgbdy">
+                <div class="flex pd3">
+                    <div class="blck">Your next Patients <div class="btm wt6"></div>
+                    </div>
+                    <div class="flex1 wt5 clrblue">
+                        <h6>View All</h6><img src="imageD/Union.svg">
+                    </div>
+                </div>
+                <div class="pd3" id="appointments">
+
+
+                    <!-- <div class="mrgrgt"><h5>10:00pm</h5></div>
+                        <div class="grey pd3 bdrad grid4">
+                            <div><img src="#"></div>
+                            <div id="nam">Guy Hawkins</div>
+                            <div><img src="imageD/dot.svg"></div> -->
+
+                </div>
+            </div>
+            <div class="mrgbdy">
+                <div class='wt'><img src="imageD/data.svg" class="wt"></div>
+            </div>
+        </div>
+        <div>
+            <div class="pdtp2 pdrgt">
+                <div class="">
+                    <div class='wt'><img src="imageD/cal.svg" class="wt"></div>
+                </div>
+                <div class="pdtp1 pdbtm">
+                    <div class='wt'><img src="imageD/statis.svg" class="wt"></div>
+                </div>
+                <div class="card pd">
+                    <div class="flex">
+                        <div>
+                            <h5>Activities</h5>
+                            <div class="btm wt2"></div>
+                        </div><img src='imageD/icon-notis.svg'>
+                    </div>
+                    <div>
+                        <div class="grid pdtp1" id="name">
+                            <!-- <div id="repo">
+                                <img src="imageD/not.svg">
+                                <h5>There are 3 new ready reports for
+                                    <span id="name">Tosin Odubela</span>
+                                </h5>
+                            </div> -->
+                        </div>
+                        <!-- <div class="flex1 pdtp1">
+                                <div><img src="#"></div>
+                                <div><h5 class="repo">There are 3 new ready reports for 
+                                    <span id="name">Tosin Odubela</span> </h5>
+                                </div>
+                            </div>
+                            <div class="flex1 pdtp1">
+                                <div><img src="#"></div>
+                                <div><h5 class="repo">There are 3 new ready reports for 
+                                    <span id="name">Tosin Odubela</span> </h5>
+                                </div>
+                            </div>
+                            <div class="flex1 pdtp1">
+                                <div><img src="#"></div>
+                                <div><h5 class="repo">There are 3 new ready reports for 
+                                    <span id="name">Tosin Odubela</span> </h5>
+                                </div>
+                            </div>
+                            <div class="flex1 pdtp1">
+                                <div><img src="#"></div>
+                                <div><h5 class="repo">There are 3 new ready reports for 
+                                    <span id="name">Tosin Odubela</span> </h5> -->
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="health.js"></script>
+</body>
+
+</html>
