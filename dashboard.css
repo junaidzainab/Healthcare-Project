@@ -344,7 +344,7 @@ body{
 }
 
 .wt5{
-    width:10%;
+    width:15%;
 }
 
 .ht{
@@ -485,15 +485,11 @@ a{
     grid-template-columns: 1fr 2fr;
     gap: 3%;
 }
-/* }
-.dsp-flex{
-    display: flex;
-    justify-content: space-between;
-} */
 
 #report{
     display: flex;
     gap:4%;
+    padding-bottom: 5%;
 }
 
 @media screen and (max-width:1024px){
@@ -507,6 +503,9 @@ a{
         font-size: 10px;
     }
 
+    #fots{
+        font-size: 13px;
+    }
 
     .pdbtm{
         padding-bottom: 1%;
@@ -522,6 +521,10 @@ a{
     .dsp-flex{
         display: flex;
         justify-content: center;
+    }
+
+    .wt5{
+        width:15%;
     }
     
 }  
@@ -564,23 +567,130 @@ a{
         font-size:7px;
         line-height:10px;
     }
-    .font3-md{
+
+    /* .font3-md{
         font-size:15px;
-    }
+    } */
+
     .fonts{
         font-size:10px;
     }
+
     .wt04{
         width:40%;
+    }
+
+    .wt5{
+        width:20%;
+    }
+
+    .fon{
+        font-size: 15px;
     }
 }
 
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 425px){
     .dis{
         display: none;
     }
+
     .wt3{
         width:100%;
+    }
+
+    .disblk{
+        display:block;
+    }
+
+    .grid2{
+        display:block;
+    }
+
+    .font6{
+        font-size: 12spx;
+    }
+    .btn{
+        padding:7px;
+    }
+    
+    .btn2{
+        padding:8px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .pdd{
+        padding-left:4%;
+    }
+    .pdtp2{
+        padding-top:1%;
+    }
+
+    .pdrgt{
+        padding-right: 4%;
+    }
+
+    .flex1{
+        display:flex;
+        gap:8%;
+        align-items: center;
+    }
+
+    .fs{
+        font-size: 8px;
+    }
+
+    .wt5{
+        width:25%;
+    }
+
+    .fon{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .mrg-lef {
+        margin-left: 70%;
+    }
+
+    .fon{
+        font-size: 13px;
+    }
+
+    .wt5{
+        width:23%;
+    }
+
+    .font3-md{
+        font-size: 7px;
+    }
+
+    .fss{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .font3-md {
+        font-size: 5px;
+    }
+
+    .fonts {
+        font-size: 7px;
+    }
+
+    .wt04{
+        width:20px;
+    }
+
+    .wt20{
+        width:20px;
     }
 }

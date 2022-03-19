@@ -21,3 +21,12 @@ btn.addEventListener('click', (e) => {
         
     }
 })
+
+
+// let navShow = document.getElementById('show')
+//         let navHide = document.getElementById('item-wrapper')
+//         console.log(navHide)
+
+//         navShow.addEventListener('click', () => {
+//             navHide.classList.toggle('hide')
+//         })

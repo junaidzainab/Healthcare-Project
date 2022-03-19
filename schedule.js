@@ -5,23 +5,7 @@ fetch(url)
     .then(data => {
         let mine = data;
         console.log(mine)
-        let schApp = document.querySelector("#no");
-        console.log(schApp)
-        schApp.innerHTML = mine.scheduledAppointments;
-
-        let waitin = document.querySelector("#wait");
-        waitin.innerHTML = mine.waitinfRoom;
-
-        let tolt = document.querySelector("#tol");
-        tolt.innerHTML = mine.totalPatients;
-
-        let appoi = document.querySelector("#no1");
-        appoi.innerHTML = mine.scheduledAppointments;
-
-        let waiting = document.querySelector("#wait1");
-        waiting.innerHTML = mine.waitinfRoom;
-
-
+       
         for (let pat of mine.appointments) {
             let d = new Date(pat.createdAt);
             let hour, mainHour, minute, timeFrame;
@@ -50,8 +34,8 @@ fetch(url)
 
 
             let mee = document.querySelector("#appointments");
-            mee.innerHTML += `<div class=" grid grid-md pdbtm1">
-            <div class="mrgrgt time"><h5>${mainHour}:${minute} ${timeFrame}</h5></div>
+            mee.innerHTML += `<div class=" disp grid-md pdbtm1">
+            <div class="mrgrgt time fss"><h5>${mainHour}:${minute} ${timeFrame}</h5></div>
             <div class="grey pd3 bdrad grid4">
                 <div><img src="imageD/img.svg"></div>
                 <div class='fon' id="nam">${pat.name}</div>
@@ -75,7 +59,6 @@ fetch(url1)
             // rep.innerHTML += me.type;
 
             let tit = document.querySelector("#name");
-            console.log(tit)
             if (me.type === "report") {
                 tit.innerHTML += `
                 <div class="dsp-flex fon" id="report"> 

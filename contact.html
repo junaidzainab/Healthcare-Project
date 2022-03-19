@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,27 +9,28 @@
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="bg ht clwht">
         <div class="flex pd">
             <div class="wt3 pdh">
                 <a><img src="images/logo-2.svg" class="wt10"></a>
             </div>
-            <div class="wt2">
-                <ul class=" flex poppins dis">
+            <div id="show"><i class="fa fa-bars"></i></div>
+            <div class="wt2" id="item-wrapper">
+                <ul class="nav-links flex poppins dis" id="items">
                     <li><a href="index.html" target="_blank">Home</a></li>
                     <li><a href="#" target="#">About</a></li>
                     <li><a href="#" target="#">Services</a></li>
                     <li><a href="contact.html" target="_blank">Contact</a></li>
                     <li><a href="dashboard.html" target="_blank"><button class="btn1">Get Started</button></a></li>
                 </ul>
-                <div><img src=""></div>
             </div>
         </div>
         <div class="wt1 txtalg poscen">
             <h1 class="poppins2">Contact Us</h1>
             <p class="font3">An enim nullam tempor sapien gravida donec enim ipsum porta justo
-                  congue purus pretium ligula </p>
+                congue purus pretium ligula </p>
             <p class="mrg fon-siz">Home <img src="images/left-arrow.svg"> Contact</p>
         </div>
         <div><img src="images/shape-1-top.svg" class="img1"></div>
@@ -43,9 +45,12 @@
             <div class="pd1">
                 <h4>Office Address</h4>
                 <p class="pdtb fz1"><img src="images/location-icon.svg" class="mrgrgt">2118 Thornridge Cir, Syracuse,
-                <span class="blck pdtb">&nbsp;&nbsp;&nbsp; California 208434</span></p>
+                    <span class="blck pdtb">&nbsp;&nbsp;&nbsp; California 208434</span>
+                </p>
             </div>
-            <div class="hr"><hr></div>
+            <div class="hr">
+                <hr>
+            </div>
             <div class="pd1">
                 <h4>Contact Info</h4>
                 <p class="pdtb fz1"><img src="images/call-icon.svg" class="mrgrgt">+088(246)642-27-10</p>
@@ -55,20 +60,24 @@
         <div class="card mrg pd1">
             <input type="text" id="name" placeholder="Enter your name*">
             <input type="text" id="email" placeholder="Enter your email address*">
-            <textarea type="text"  id="text" placeholder="Write your message" rows="10" col="10"></textarea>
+            <textarea type="text" id="text" placeholder="Write your message" rows="10" col="10"></textarea>
             <button type="submit" id="btn">Send Message</button>
         </div>
     </div>
     <div>
         <div>
-            <iframe width = "100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <iframe width="100%" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
     </div>
     <div class="footer pd">
         <div>
             <div><a><img src="images/logo-blue.svg"></a></div>
-            <div class="medbl poppins liht3"><p>Metairie, 3689 Bassel Street, LA, Louisiana
-                <span class="blck liht3 poppins">contact us: 225-788-5489</span></p>
+            <div class="medbl poppins liht3">
+                <p>Metairie, 3689 Bassel Street, LA, Louisiana
+                    <span class="blck liht3 poppins">contact us: 225-788-5489</span>
+                </p>
             </div>
             <div class="">
                 <img src="images/facebook.svg">
@@ -78,7 +87,9 @@
             </div>
         </div>
         <div>
-            <div><h5 class="txthd font4">Category</h5></div>
+            <div>
+                <h5 class="txthd font4">Category</h5>
+            </div>
             <div class="icon, medbl pdtb1">
                 <ul class="pdtb1 font3 inl">
                     <li class="mrgbtm"><a>Home </a></li>
@@ -90,7 +101,9 @@
             </div>
         </div>
         <div>
-            <div><h5 class="txthd font4 robo">About</h5></div>
+            <div>
+                <h5 class="txthd font4 robo">About</h5>
+            </div>
             <div class="icon medbl pdtb1 robo">
                 <ul class="pdtb1 font3 inl">
                     <li class="mrgbtm"><a>Partner</a></li>
@@ -101,7 +114,9 @@
             </div>
         </div>
         <div class="popp">
-            <div><h5 class="txthd">Subscribe newsletter</h5></div>
+            <div>
+                <h5 class="txthd">Subscribe newsletter</h5>
+            </div>
             <div class="icon medbl pdtb1">
                 <p class="liht1 font3">Sign up for tips, new destinations, and exclusive promos.</p>
             </div>
@@ -109,16 +124,19 @@
     </div>
     <hr>
     <div class="flex pd footer-btm font3 wt">
-        <div><p>&copy; 2021 HealthCare - All rights reserved.</p></div>
+        <div>
+            <p>&copy; 2021 HealthCare - All rights reserved.</p>
+        </div>
         <div class="wt1">
-           <ul class="flex">
+            <ul class="flex">
                 <li><a>Privacy</a></li>
                 <li><a>Security</a></li>
                 <li><a>Terms</a></li>
-           </ul>
+            </ul>
         </div>
     </div>
-    
+
     <script src="contact.js"></script>
 </body>
+
 </html>

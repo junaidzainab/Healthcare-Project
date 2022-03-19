@@ -285,10 +285,6 @@ main{
 
 /* new arragment */
 
-#hide{
-    display:none;
-}
-
 #show{
     display:none;
 }
@@ -387,7 +383,7 @@ h5{
 .lind{
     background-image: url("image/doctor-Linda.png");
     border-radius:10px;
-    background-size: top;
+    background-size: cover;
 }
 
 
@@ -520,144 +516,74 @@ a{
 }
 
 
-
-/* media querry */
-
-@media screen and (max-width: 1024px){
-    header{
-        height: 71vh !important;
-    }
-    .ht3-md{
-        height: 0px !important;
-    }
-    .my-img{
-        width: 100% !important;
-    }
+@media screen and (max-width: 1024px) {
     .wt3-md{
-        width:50% !important;
+        width:50%;
+
     }
-    .posrit{
-        width: 50% !important;
+    h1{
+        font-size: 40px;
     }
-    .poslef{
-        width: 50% !important;
-        position: absolute;
-        bottom: 10%;
-    }
-    .disblck{
-        display:block;
+    .liht{
+        line-height: 60px;
     }
 }
 
-
-@media screen and (max-width:920px){
-
+@media screen and (max-width:768px) {
     .nav{
-        font-size: 12px;
-        font-weight: 300;
-        line-height: 15px;
+        font-size: 14px;
     }
+    
+    h1{
+        font-size: 32px;
+    }
+    .liht{
+        line-height: 50px;
+    }
+    .poslef{
+        bottom:20%;
+    }
+    .ht{
+        height:200px;
+    }
+    .doc{
+        position: absolute;
+        bottom:-0.5%;
+        right:-5%;
+    }
+
+    h5{
+        font-size:15px;
+    }
+    .fz{
+        font-size:12px
+    }
+
+    .fz1{
+        font-size: 13px;
+    }
+    
+    .wt2{
+        width:50%;
+    } 
 
     .opa{
         filter: opacity(0.3)
     }
+}
 
-    .mrglef{
-        margin-left: 3%;
-    }
-    .font2{
-        font-size:12px;
-        font-weight:200;
-    }
-
-    h1{
-        font-weight: 400;
-        font-size: 28px;
-    }
-
-    .font2{
-        font-size:14px;
-        font-weight: 400;
-    }
-    
-    .font3{
-        font-size:12px;
-        font-weight: 200;
-    }
-
-    .font-4{
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-    .fz{
-        font-size: 12px;
-    }
-    
-    h5{
-        font-size: 15px;
-        font-weight: 300;
-    }
-
-    .font5{
-        font-size: 30px;
-        font-weight:500;
-    }
-
-    .poppins{
-        font-size: 14px;
-        font-family: poppins;
-        font-weight: 300;
-    }
-
-    .liht3{
-        line-height: 30px;
-    }
-
-    .font4{
-        font-size: 16px;
-        font-weight: 500;
-    }
-} 
-
-@media screen and (max-width:768px){
-    /* .zindex{
-        position:absolute;
-        z-index: 0;
-    } */
+@media screen and (max-width:425px) {
 
     .zindex1{
         z-index: 3;
     }
-
-    .nav{
-        font-size: 10px;
-        font-weight: 300;
-        line-height: 15px;
-    }
-
-    .font2-md{
-        font-size: 12px !important
-    }
-
-    .h1-md{
-        font-size:25px;
-        line-height:41px !important
-    }
-
-    .lind{
-        background-size: cover;
-    }
-
-}
-
-@media screen and (max-width:720px) {
+    
     .dis{
         display:none;
     }
 
     #show{
-        display:block;
+        display: block
     }
 
     .grid2{
@@ -667,6 +593,10 @@ a{
 
     .transca{
         transform: unset;
+    }
+
+    .grid{
+        display: block;
     }
 
     .grid3{
@@ -686,7 +616,7 @@ a{
     }
 
     .ht{
-        height:500px;
+        height:300px;
     }
 
     .marg{
@@ -708,6 +638,7 @@ a{
 
     h1{
         font-weight: 800;
+        font-size: 25px;
     }
 
     .liht{
@@ -719,11 +650,11 @@ a{
     }
 
     .wt2{
-        width:60%;
+        width:unset;
     }
 
     .font3{
-        font-size:16px;
+        font-size:14px;
         font-weight: 400;
     }
 
@@ -756,48 +687,70 @@ a{
     }
 
     .font5{
-        font-size: 23px;
+        font-size: 30px;
     }
 
     h5{
         font-size: 20px;
         font-weight: 500;
     }
-
-    .txtcen{
-        text-align: center;
-        font-weight: bold;
+    .liht3{
+        line-height: 40px;
     }
-    .blk{
-        display:block;
-    }
-    
-}
-
-@media screen and (max-width:520px) {
-    .disnone{
-        display:none;
-    }
-
-    .grid{
+    .disblk{
         display: block;
     }
-    
-    .footer{
-        width:100% !important;
+    .hide{
+        display: none;
     }
-    .ht{
-        height:300px;
+    #items{    
+        background-color:#B1DEFF;
+        display:flex;
+        flex-direction: column;
+        width:55%;
     }
 
+    #items li{
+        /* padding-right: 20px; */
+        font-weight:400;
+        font-size:18px;
+        list-style:none;
+    }
+    .mrgleft-md{
+        margin-left: auto !important;
+    }
+
+    .wt3-md{
+        width:100%;
+    }
 }
 
-@media screen and (max-width:400px) {
-    .dsply{
-        display:none;
+@media screen and (max-width:375px) {
+    .wt03{
+        width:70%
+    }
+    .wt3{
+        width:80%;
     }
 
-    .cardblu{
-        display:none;
+    .liht1{
+        line-height: 20px;
     }
+
+    .wt4{
+        width:73%;
+    }
+
+    .font-4{
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media screen and (max-width:320px) {
+    .wt80{
+        width:80%;
+    }
+    
 }

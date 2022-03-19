@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HealtCare</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylee.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="imageD/Ellipse 157.svg">
 </head>
@@ -17,9 +17,9 @@
             <div class="wt3 wt3-md">
                 <a href=""><img src="images/logo-blue.svg" class="wt03"></a>
             </div>
-            <div class="wt2">
-                <ul class="flex mrglef dis nav">
-                    <li id="hide"><i class="fa fa-times"></i></li>
+            <div id="show"><i class="fa fa-bars"></i></div>
+            <div class="wt2 wt2-none-md" id="item-wrapper">
+                <ul class="flex mrglef mrgleft-md dis nav" id="items">
                     <li><a href="index.html" target="_blank" class="clrblue">Home</a></li>
                     <li><a href="#" target="#">About</a></li>
                     <li><a href="#" target="#">Services</a></li>
@@ -27,7 +27,6 @@
                     <li><a href="dashboard.html" target="_blank"><button class="btn">Get Started</button></a></li>
                 </ul>
             </div>
-            <div id="show"><i class="fa fa-bars"></i></div>
         </div>
         <div class="">
             <div class="poslef zindex1 wt4">
@@ -36,7 +35,8 @@
                         <span class='blck'>Find And Search Your</span>
                         <span class="clrblue blck">Suitable Doctor's</span>
                     </h1>
-                    <p class="mjn liht1 robo font2 font2-md">Join us and take care of yourself and your family with health
+                    <p class="mjn liht1 robo font2 font2-md">Join us and take care of yourself and your family with
+                        health
                         services that
                         will make you feel confident and safe in your daily life.
                     </p>
@@ -45,7 +45,7 @@
                     <button class="btn">Book Appointment &rightarrow;</button>
                 </div>
             </div>
-            <div class="ht3 ht3-md dsply posrit">
+            <div class="ht3 dsply posrit">
                 <img src="image/headerDoc.svg" class="ht4 opa my-img">
             </div>
         </div>
@@ -151,7 +151,8 @@
                             <p class="pdtb">Medicine</p>
                         </div>
                         <div>
-                            <p class="mjn mrgtp fz mrgbtm">Our medicine doctor are skilled at diagnosing treating diseases
+                            <p class="mjn mrgtp fz mrgbtm">Our medicine doctor are skilled at diagnosing treating
+                                diseases
                                 of the latest
                                 medicine system.
                             </p>
@@ -159,7 +160,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex1 mrgtp1 mrgbtm"><img src="image/Nav bar.svg"></div>
+            <div class="flex1 mrgtp1 dis mrgbtm"><img src="image/Nav bar.svg"></div>
             <div class="algitm">
                 <div class="wt3 txtalg mrgtp mrglef-rgt">
                     <h1>Meet Our Certified Online Doctors</h1>
@@ -231,7 +232,7 @@
                         app for free and feel safe for all your family
                     </p>
                     <div>
-                        <img src="image/Download badge.png" class="mrgtp">
+                        <img src="image/Download badge.png" class="mrgtp wt80">
                     </div>
                 </div>
             </div>
@@ -239,8 +240,8 @@
                 <div class="pdbtm pdtb1 txtalg">
                     <h1>Look our Clients have to say about us</h1>
                 </div>
-                <div class="navicon" id="ritarr"><img src="image/Nav icon.svg" onclick="plusSlides(-1)"></div>
-                <div class="navicon1" id="leftarr"><img src="image/Nav icon1.svg" onclick="plusSlides(1)"></div>
+                <div class="navicon dis" id="ritarr"><img src="image/Nav icon.svg" onclick="plusSlides(-1)"></div>
+                <div class="navicon1 dis" id="leftarr"><img src="image/Nav icon1.svg" onclick="plusSlides(1)"></div>
                 <div class="grid3">
                     <div class="cardblu marg wt7 pd posrel">
                         <div class="cir"></div>
@@ -250,7 +251,7 @@
                             <p class="clrblue font3 popp">New York, America, USA</p>
                         </div>
                         <div class="pd">
-                            <p class="left bl font3">Telehealth is fueled by digital technologies
+                            <p class="left bl font3 fz1">Telehealth is fueled by digital technologies
                                 and DocTime telemedicine app has brought a great revolution in medical services
                                 specially an overpopulated country where virtual chamber can create at
                                 anywhere thoughout country
@@ -265,7 +266,7 @@
                             <p class="clrblue popp font3">San Francisco, USA</p>
                         </div>
                         <div class="pd pdbtm">
-                            <p class="left font3 bl">I visited my PCP for abdominal pain. My doctor told
+                            <p class="left font3 bl fz1">I visited my PCP for abdominal pain. My doctor told
                                 me that I need to see Gastroenterologist. Earlier I used to call multiple offices to
                                 schedule an appointment that suites my times.
                             </p>
@@ -279,7 +280,7 @@
                             <p class="clrblue popp font3">Los Angeles, USA</p>
                         </div>
                         <div class="pd pdbtm">
-                            <p class="left font3 bl">HealthCare is enlightens my superpower each and every time...!
+                            <p class="left font3 bl fz1">HealthCare is enlightens my superpower each and every time...!
                                 I find DocTime a brand=able telemedicine platform with virtual waiting room, video
                                 consultation, e-prescription, beautifully planned user interface.
                                 Thank you :)
@@ -294,8 +295,8 @@
                         <h2 class="clw font5 liht3">It's Time Change Your Life Today</h2>
                         <button class="btn1 font-4 liht2">Book an Appointment</button>
                     </div>
-                    <div class="doc disnone wt2">
-                        <img src="image/smile-doctor.png" class="wt">
+                    <div class="doc dis ht4">
+                        <img src="image/smile-doctor.png" class="ht4">
                     </div>
                 </div>
             </div>
@@ -316,7 +317,7 @@
                         <img src="images/youtube.svg">
                     </div>
                 </div>
-                <div >
+                <div>
                     <div>
                         <h5 class="txthd font4 txtcen">Category</h5>
                     </div>
@@ -362,7 +363,7 @@
                 <hr>
             </div>
         </div>
-        <div class="flex footer-btm pd3 blk font3 wt">
+        <div class="flex footer-btm pd3 disblk font3 wt">
             <div>
                 <p>&copy; 2021 HealthCare - All rights reserved.</p>
             </div>
@@ -377,47 +378,14 @@
     </main>
 
     <script>
-        let navshow = document.getElementById('show')
-        let navhide = document.getElementById('hide')
-        let navul = document.querySelector('#')
+        let navShow = document.getElementById('show')
+        let navHide = document.getElementById('item-wrapper')
+        console.log(navHide)
 
-        navshow.addEventListener('click', ()=>{
-            navul.style.transform = 'translateX(0)'
+        navShow.addEventListener('click', () => {
+            navHide.classList.toggle('hide')
         })
 
-        navhide.addEventListener('click', ()=>{
-            navul.style.transform = 'translateX(100%)'
-        })
-
-        let leftarr = document.querySelector('#leftarr')
-        let rgtarr = document.querySelector('#ritarr')
-        console.log(rgtarr)
-        console.log(leftarr)
-        // leftarr.addEventListener('click' (e)=>{
-
-        // })
-        var slideIndex =1;
-        showSlides(slideIndex);
-
-    function pluSlides(n) {
-        showSlides(slideIndex += n);
-    }
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-
-        function showSlides(n){
-            var i;
-            var slide = document.getElementByid('cardblu');
-            if (n > slides.length){slideIndex =1}
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides,length; i++){
-                slides[i].style.display ='none';
-            }
-            slides[slideIndex-1].style.display ='block';
-        }
-    
     </script>
     <script src="https://kit.fontawesome.com/aedd297eaa.js" crossorigin="anonymous"></script>
 </body>
