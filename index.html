@@ -18,8 +18,8 @@
                 <a href=""><img src="images/logo-blue.svg" class="wt03"></a>
             </div>
             <div id="show"><i class="fa fa-bars"></i></div>
-            <div class="wt2 wt2-none-md" id="item-wrapper">
-                <ul class="flex mrglef mrgleft-md dis nav" id="items">
+            <div class="wt2 wt2-none-md hide" id="item-wrapper">
+                <ul class="flex mrglef mrgleft-md nav" id="items">
                     <li><a href="index.html" target="_blank" class="clrblue">Home</a></li>
                     <li><a href="#" target="#">About</a></li>
                     <li><a href="#" target="#">Services</a></li>
@@ -380,7 +380,7 @@
     <script>
         let navShow = document.getElementById('show')
         let navHide = document.getElementById('item-wrapper')
-        console.log(navHide)
+        // console.log(navHide)
 
         navShow.addEventListener('click', () => {
             navHide.classList.toggle('hide')
